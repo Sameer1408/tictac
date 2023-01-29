@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#a1{
+  border:4px solid #FFE79E;
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  border-left: transparent;
+  border-top: transparent;
+}
+#a1:hover{
+  border:4px solid #9747ff;
+}
+
+#a2{
+  border:4px solid #FFE79E;
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 350px;
+  left: 150px;  
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+}
+#a2:hover{
+  border:4px solid #9747ff;
+}
+
+#a3{
+  border:4px solid #FFE79E;
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 350px;
+  left: 260px; 
+  border-right: transparent;
+  border-top: transparent;
+}
+#a3:hover{
+  border:4px solid #9747ff;
+}
+
+#a4{
+  border-right:4px solid #FFE79E;
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 460px;
+  left: 40px;
+  border-bottom: 4px solid #FFE79E;
+}
+
+#a4:hover{
+  border:4px solid #9747ff;
+}
+
+#a5{
+  /* border:1px solid #FFE79E; */
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 460px;
+  left: 150px;
+  border-bottom: 4px solid #FFE79E;
+}
+#a5:hover{
+  border:4px solid #9747ff;
+}
+
+#a6{
+  border-left:4px solid #FFE79E;
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 460px;
+  left: 260px;
+  border-bottom:4px solid #FFE79E;
+}
+
+#a6:hover{
+  border:4px solid #9747ff;
+}
+
+#a7{
+  border-right:4px solid #FFE79E;
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 570px;
+  left: 40px;
+}
+
+#a7:hover{
+  border:4px solid #9747ff;
+}
+
+#a8{
+  border:1px solid #FFE79E;
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 570px;
+  left: 150px;
+}
+
+#a8:hover{
+  border:4px solid #9747ff;
+}
+
+#a9{
+  border-left:4px solid #FFE79E;
+  margin:0px 0px;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  position: absolute;
+  top: 570px;
+  left: 260px;
+}
+#a9:hover{
+  border:4px solid #9747ff;
+}
+
+.cross{
+  color:#2C8DFF;
+  font-size:90px;
+}
+.circle{
+  color: #FF4F4F;
+  font-size: 90px;
+}
+
+.chanceDiv{
+  border: 1px solid #FFE79E;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-size: 22px;  
+  background-color: #FFE79E;
+  font-weight: 500;
+}
+
+
+.loginDiv{
+  position:absolute;
+  top: 660px;
+  border: 2px solid #2F80ED;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px ;
+  font-size: 20px;
+  border-radius:8px;
+  font-weight: 500;
+  color: white;
+  background-color: #2F80ED;
+  box-shadow: 1px 4px 5px rgba(128, 128, 128, 0.425);
+}
+
+.SubmitDiv{
+  position:absolute;
+  bottom: 50px;
+  border: 2px solid #F2C94C;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px ;
+  font-size: 20px;
+  border-radius:8px;
+  font-weight: 500;
+  color: white;
+  background-color: #F2C94C;
+  box-shadow: 1px 4px 5px rgba(128, 128, 128, 0.425);
+}
+
+.inputStyle{
+  padding-top: 15px;
+  padding-bottom:15px ;
+  background-color: rgba(128, 128, 128, 0.11);
+  font-weight: 500;
+}
+
+.async{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 200;
+  position: relative;
+  top:150px ;
+}
+
+.heading{
+  font-size: 100px;
+  text-align: center;
+  font-weight: 400;
+  position: relative;
+  top:180px ;
+  line-height: 1;
+}
+
+.subHead{
+  font-weight: 800;
+  width: 300px;
+  position: relative;
+  top:10px;
+  margin-bottom: 60px;
+  font-size:35px;
+}
+
+.labels{
+  font-weight:600;
+  font-size:20px
+}
+
+.newGame{
+  background-color: #270F36;
+  color: white;
+  width:150px;
+  padding: 10px;
+  text-align: center;
+  border-radius:10px;
+  position: fixed;
+  bottom:40px;
+  right: 20px;
+}
+
+.card{
+  margin-top:20px;
+  box-shadow: 1px 4px 5px rgba(128, 128, 128, 0.425);
+  padding: 8px;
+
+}
+
+.playDiv{
+  width: 100%;
+  background-color: #F2C94C;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  font-size:20px;
+  border-radius: 10px;
+}
